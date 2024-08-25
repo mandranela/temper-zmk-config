@@ -1,132 +1,99 @@
 layers:
   default:
-  - ['', Q, W, E, R, T, Y, U, I, O]
-  - - P
-    - ''
-    - ''
-    - {t: A, h: ⌘}
+  - [Q, W, E, R, T, Y, U, I, O, P]
+  - - {t: A, h: ⌘}
     - {t: S, h: ⎇}
     - {t: D, h: ⌃}
     - {t: F, h: LSHIFT}
     - G
     - H
     - {t: J, h: RSHIFT}
-  - - {t: K, h: ⌃}
+    - {t: K, h: ⌃}
     - {t: L, h: ⎇}
     - '&td0'
-    - ''
-    - ''
-    - Z
+  - - Z
     - X
     - C
     - V
     - B
-  - - N
+    - N
     - M
     - {t: ',', s: <}
     - {t: ., s: '>'}
     - /
-    - ''
-    - '&td1'
+  - - '&td1'
     - {t: BSPC, h: num}
     - {t: SPACE, h: ⌘}
     - {t: RET, h: ⌘}
-  - - {t: DEL, h: sym}
+    - {t: DEL, h: sym}
     - {t: '`', h: ⎇, s: '~'}
   num:
-  - ['', '', ↞, ↑, ↠, PG UP, +, '7', '8', '9']
-  - - KP MULTIPLY
-    - ''
-    - ''
-    - Ctl+ LSHIFT
+  - ['', ↞, ↑, ↠, PG UP, +, '7', '8', '9', KP MULTIPLY]
+  - - Ctl+ LSHIFT
     - ←
     - ↓
     - →
     - PG DN
     - {t: '-', s: _}
     - '4'
-  - - '5'
+    - '5'
     - '6'
     - {t: /, s: '?'}
-    - ''
-    - ''
-    - Alt+Ctl+ LSHIFT
+  - - Alt+Ctl+ LSHIFT
     - ''
     - ''
     - HOME
     - END
-  - - '0'
+    - '0'
     - '1'
     - '2'
     - '3'
     - {t: ., s: '>'}
-    - ''
-    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
     - {type: held}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-  - - func
+    - func
     - {t: ▽, type: trans}
   sym:
-  - ['', '!', '@', '#', $, '%', ^, '&', KP MULTIPLY, (]
-  - - )
-    - ''
-    - ''
-    - {t: '`', s: '~'}
+  - ['!', '@', '#', $, '%', ^, '&', KP MULTIPLY, (, )]
+  - - {t: '`', s: '~'}
     - '~'
     - ''
     - ''
     - ''
     - {t: '-', s: _}
     - {t: '=', s: +}
-  - - {t: '[', s: '{'}
+    - {t: '[', s: '{'}
     - {t: ']', s: '}'}
     - \
-    - ''
-    - ''
-    - '~'
-    - ''
-    - ''
-    - ''
-    - ''
-  - - _
-    - +
-    - '{'
-    - '}'
-    - '|'
-    - ''
-    - {t: ▽, type: trans}
+  - ['~', '', '', '', '', _, +, '{', '}', '|']
+  - - {t: ▽, type: trans}
     - func
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-  - - {type: held}
+    - {type: held}
     - {t: ▽, type: trans}
   func:
-  - ['', F1, F2, F3, F4, F5, F6, F7, F8, F9]
-  - [F10, '', '', '', '', PREV, NEXT, PLAY PAUSE, 'VOL
+  - [F1, F2, F3, F4, F5, F6, F7, F8, F9, F10]
+  - ['', '', PREV, NEXT, PLAY PAUSE, 'VOL
 
-      MUTE', VOL DN]
-  - - VOL UP
-    - ''
-    - F11
-    - ''
-    - ''
-    - {t: BT, h: '0'}
+      MUTE', VOL DN, VOL UP, '', F11]
+  - - {t: BT, h: '0'}
     - {t: BT, h: '1'}
     - {t: BT, h: '2'}
     - BT NXT
     - BT CLR
-  - - ''
+    - ''
     - ''
     - ''
     - ''
     - F12
-    - ''
-    - '&sys_reset'
+  - - '&sys_reset'
     - {type: held}
     - '&bootloader'
     - '&bootloader'
-  - - {type: held}
+    - {type: held}
     - '&sys_reset'
 combos:
 - p: [16, 19]
